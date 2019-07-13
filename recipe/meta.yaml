@@ -1,5 +1,5 @@
 {% set name = "splot" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/splot/splot-{{ version }}.tar.gz
-  sha256: 6619af6349979f47143b8f526ee58d9025e2324a1c8340a7100391acb3129230
+  sha256: 9fc767a06c9e7d79eeefe6036a036a73624cb99c4aef741103b7f0afa83f6a15
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
