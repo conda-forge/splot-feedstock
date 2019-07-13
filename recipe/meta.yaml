@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/splot/splot-{{ version }}.tar.gz
-  sha256: 9fc767a06c9e7d79eeefe6036a036a73624cb99c4aef741103b7f0afa83f6a15
+  sha256: 6bc9dac643cbf77214052493d8918600168e3fb24f184f39f05d4e17810e598e
 
 build:
   noarch: python
