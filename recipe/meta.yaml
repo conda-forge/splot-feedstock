@@ -29,6 +29,7 @@ requirements:
     - esda
     - spreg
     - giddy
+    - ipywidgets
 
 test:
   imports:
