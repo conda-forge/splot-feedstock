@@ -1,12 +1,12 @@
-{% set name = "splot" %}
+# {% set name = "splot" %}
 {% set version = "1.0.0" %}
 
 package:
-  name: {{ name|lower }}
+  # name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/pysal/{{ name }}/archive/{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/splot/splot-{{ version }}.tar.gz
   sha256: 6619af6349979f47143b8f526ee58d9025e2324a1c8340a7100391acb3129230
 
 build:
