@@ -1,18 +1,18 @@
 {% set name = "splot" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/pysal/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 6619af6349979f47143b8f526ee58d9025e2324a1c8340a7100391acb3129230
+  url: https://pypi.io/packages/source/s/splot/splot-{{ version }}.tar.gz
+  sha256: 6bc9dac643cbf77214052493d8918600168e3fb24f184f39f05d4e17810e598e
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
@@ -29,6 +29,7 @@ requirements:
     - esda
     - spreg
     - giddy
+    - ipywidgets
 
 test:
   imports:
