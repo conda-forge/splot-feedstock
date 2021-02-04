@@ -5,9 +5,13 @@ Home: http://pysal.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/splot-feedstock/blob/master/LICENSE.txt)
 
 Summary: Lightweight plotting and mapping to facilitate spatial analysis with PySAL
+
+Development: https://github.com/pysal/splot
+
+Documentation: https://splot.readthedocs.io/en/latest/
 
 splot connects spatial analysis done in PySAL to different popular visualization
 toolkits like matplotlib. The splot package allows you to create both static plots
