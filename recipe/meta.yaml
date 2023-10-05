@@ -64,6 +64,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - martinfleis
     - slumnitz
     - knaaptime
     - jGaboardi
