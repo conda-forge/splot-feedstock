@@ -1,11 +1,11 @@
-About splot
-===========
+About splot-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/splot-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pysal.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/splot-feedstock/blob/main/LICENSE.txt)
 
 Summary: Lightweight plotting and mapping to facilitate spatial analysis with PySAL
 
@@ -106,7 +106,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -156,5 +156,6 @@ Feedstock Maintainers
 
 * [@jGaboardi](https://github.com/jGaboardi/)
 * [@knaaptime](https://github.com/knaaptime/)
+* [@martinfleis](https://github.com/martinfleis/)
 * [@slumnitz](https://github.com/slumnitz/)
 
