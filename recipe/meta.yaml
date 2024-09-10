@@ -1,5 +1,5 @@
 {% set name = "splot" %}
-{% set version = "1.1.6" %}
+{% set version = "1.1.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/splot-{{ version }}.tar.gz
-  sha256: 20d3c390a0b9aa130a5d6699f852c66f8c41e72f5ed14be0db59243c9ca430b6
+  sha256: 6edcaee24cd417965c378c5bc87414d02806915950c138c1f6e40f1a1de5286b
 
 build:
   number: 0
