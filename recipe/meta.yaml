@@ -21,7 +21,6 @@ requirements:
     - pip
   run:
     - python >=3
-    - descartes
     - esda
     - geopandas >=0.4.0
     - giddy
